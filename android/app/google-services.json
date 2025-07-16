@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "520754834383",
+    "project_id": "zytexa-hrms",
+    "storage_bucket": "zytexa-hrms.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520754834383:android:6bd01d856416a04c9800ba",
+        "android_client_info": {
+          "package_name": "com.hrm.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7bxtX6QiUkN71Ra5eOHzFDrj1bgO1eQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

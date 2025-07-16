@@ -1,3 +1,9 @@
+configurations.all {
+    resolutionStrategy {
+        force 'androidx.core:core:1.13.1'
+    }
+}
+
 buildscript {
     ext {
         buildToolsVersion = "35.0.0"
@@ -12,10 +18,13 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath("com.android.tools.build:gradle")
-        classpath("com.facebook.react:react-native-gradle-plugin")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
-    }
+    classpath("com.android.tools.build:gradle:8.0.2") 
+    classpath("com.facebook.react:react-native-gradle-plugin")
+    classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:2.1.20") 
+    classpath("com.google.gms:google-services:4.4.1") 
+    classpath 'com.google.gms:google-services:4.3.15'
+}
+
 }
 
 apply plugin: "com.facebook.react.rootproject"
